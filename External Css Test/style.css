@@ -1,0 +1,12 @@
+.main{
+    width: 1000px;
+    height: 400px;
+    background-color: aquamarine;
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+}
+.main:hover{
+    background-color: black;
+    color: aliceblue;
+}
