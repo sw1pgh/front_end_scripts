@@ -103,6 +103,8 @@
 #services {
     margin: 34px;
     display: flex;
+    /* background-color: #f2f2f2;
+    opacity: 0.1; */
 }
 
 #services .box {
@@ -125,12 +127,6 @@
 
 }
 
-#services {}
-
-#services {}
-
-#services {}
-
 /* Clients Section */
 #client-section {
     position: relative;
@@ -138,11 +134,11 @@
 #client-section::before {
     content: "";
     position: absolute;
-    background: url(../Image_and_Icons/bg2.jpg) no-repeat center center/cover;
+    /* background: url(../Image_and_Icons/bg2.jpg) no-repeat center center/cover; */
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 #clients {
     display: flex;
@@ -169,8 +165,8 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.7;
-    background: url(../Image_and_Icons/contact.jpg) no-repeat center center/cover;
+    /* opacity: 0.7;
+    background: url(../Image_and_Icons/contact.jpg) no-repeat center center/cover; */
 }
 
 #contact-box{
@@ -189,7 +185,7 @@
 }
 
 #contact-box form{
-    width: 40%;    
+    width: 40%;  
 }
 
 #contact-box label{
@@ -230,6 +226,13 @@ footer{
     margin: 17px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(245, 92, 68);
+    font-size: 1.56rem;
+    padding: 6px 19.5px;
 }
 
 .center {
