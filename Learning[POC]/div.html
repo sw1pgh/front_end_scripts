@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Div Tag</title>
+        <style>
+            .main{
+                height: 500px;
+                width: 500px;
+                background-color: darkgoldenrod;
+            }
+            #parent-row-1{
+                width: 500px;
+                height: 250px;
+                background-color: yellow;
+            }
+            #parent-row-2{
+                width: 500px;
+                height: 250px;
+                background-color: mediumaquamarine;
+            }
+            .col-1{
+                width: 250px;
+                height: 250px;
+                float: left;
+                background-color: aquamarine;
+            }
+            .col-2{
+                width: 250px;
+                height: 250px;
+                float: left;
+                background-color: darkkhaki;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div id="parent-row-1">
+                <div class="col-1">Home</div>
+                <div class="col-2">About</div>
+            </div>
+            <hr/>
+            <div id="parent-row-2">
+                <div class="col-1">Barcelona</div>
+                <div class="col-2"">Real Madrid</div>
+            </div>
+        </div>
+    </body>
+</html>

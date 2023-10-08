@@ -75,7 +75,7 @@
 
 #home::before {
     content: "";
-    background: url(../Image_and_Icons/bg1.jpg) no-repeat center center/cover;
+    background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../Image_and_Icons/bg1.jpg) no-repeat center center/cover;
     /* filter: opacity(2px); */
     position: absolute;
     top: 0px;
