@@ -275,8 +275,18 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
+.icons{
+    display: flex;
+    /* align-items: center; */
+    /* width: 9%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+    width: 160px;
+}
 .icons .fa{
     display: block;
+    /* flex-direction: row; */
     color: #f44336;
     margin: 0 13px;
     cursor: pointer;
@@ -342,5 +352,11 @@ h3{
     .cta h1{
         font-size: 24px;
 
+    }
+    .icons .fa{
+        flex-direction: row;
+    }
+    .footer p{
+        font-size: 15px;
     }
 }
