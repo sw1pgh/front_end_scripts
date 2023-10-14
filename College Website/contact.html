@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <section class="sub-header-about">
+    <section class="sub-header-contact">
         <nav>
             <a href="index.html"><img src="images/logo.jpeg"></a>
             <div class="nav-links" id="navLinks">
@@ -35,23 +35,50 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
     </section>
 
-    <!-- About Us Content -->
-    <section class="about-us">
+    <!-- Contact Us Content -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0828996573487!2d88.42593201132266!3d22.57600257940374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f970ae9a2e19b5%3A0x16c43b9069f4b159!2sTechno%20India%20University!5e0!3m2!1sen!2sin!4v1697264509993!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>We are the World's Largest University</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum temporibus laudantium rem repudiandae
-                    excepturi eligendi velit cupiditate libero porro. Dignissimos a placeat animi sunt iure natus fuga
-                    suscipit adipisci laudantium! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ea dolor
-                    amet culpa ab quasi molestias similique repellat eaque aperiam quos, porro cupiditate iste et iusto
-                    omnis nam numquam veritatis.</p>
-                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Kolkata, Bidhannagar, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 1234567890</h5>
+                        <p>Monday to Friday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/about.jpg" alt="">
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
             </div>
         </div>
     </section>
