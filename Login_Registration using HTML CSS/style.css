@@ -8,7 +8,7 @@
 .hero {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url(https://free4kwallpapers.com/uploads/originals/2022/11/20/astronaut-wallpaper.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url("pexels-eberhardgross-1421903.jpg");
     filter: opacity(2px);
     background-position: center;
     background-size: cover;
