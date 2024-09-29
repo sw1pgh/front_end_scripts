@@ -32,14 +32,14 @@ header {
 
 .logo {
     font-size: 2em;
-    color: #fff;
+    color: RED;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: white;
+    color: beige;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -52,7 +52,7 @@ header {
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background: beige;
     border-radius: 6px;
     transform: scaleX(0);
     transition: transform .3s;
@@ -66,19 +66,19 @@ header {
     width: 130px;
     height: 50px;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid beige;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
-    color: #fff;
+    color: beige;
     font-weight: 500;
     margin-left: 40px;
     transition: .5s;
 }
 
 .navigation .btnLogin-popup:hover {
-    background-color: #fff;
+    background-color: beige;
     color: #162938;
 }
 
@@ -103,7 +103,7 @@ header {
 
 .form-box h2 {
     font-size: 2em;
-    color: #ffffff;
+    color: beige;
     text-align: center;
 }
 
@@ -111,7 +111,7 @@ header {
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid beige;
     margin: 30px 0;
 }
 
@@ -121,7 +121,7 @@ header {
     background: transparent;
     border: none;
     outline: none;
-    color: #fff; /* Ensure text is visible */
+    color: beige; /* Ensure text is visible */
     padding: 0 10px; /* Add some padding to avoid text being too close to the border */
     font-size: 1em; /* Match font size with label for consistency */
     font-weight: 600;
@@ -134,8 +134,8 @@ header {
     left: 10px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #fff;
-    font-weight: 500;
+    color: beige;
+    font-weight: 200;
     pointer-events: none;
     transition: 0.5s ease; /* Smooth transition */
 }
@@ -145,13 +145,67 @@ header {
     top: -10px;
     left: 10px;
     font-size: 0.75em;
-    color: #fff; /* Change color if needed */
+    color: beige; /* Change color if needed */
 }
 
 .input-box .icon {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #fff;
+    color: beige;
     line-height: 50px;
+}
+
+.remember-forgot{
+    font-size: 0.9em;
+    color: beige;
+    font-weight: 200;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    accent-color: beige;
+    margin-right: 5px;
+}
+
+.remember-forgot a{
+    color: beige;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: beige;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+}
+
+.login-register{
+    font-size: 0.9em;
+    font-weight: 200;
+    color: beige;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+
+.login-register p a{
+    color: beige;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover{
+    text-decoration: underline;
 }

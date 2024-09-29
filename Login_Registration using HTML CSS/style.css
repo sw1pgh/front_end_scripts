@@ -21,12 +21,12 @@
     height: 480px;
     position: relative;
     margin: 6% auto;
-    background: #fff;
+    background: beige;
     padding: 5px;
     overflow: hidden;
     border-radius: 50px;
     background-color: #e8e8e821;
-    color: white;
+    color: beige;
 }
 
 .button-box {
@@ -36,7 +36,7 @@
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
     text-align: center;
-    color: white;
+    color: beige;
 }
 
 .toggle-btn {
@@ -57,7 +57,7 @@
     background: linear-gradient(to left, #ff105f, #ffad06);
     border-radius: 30px;
     transition: 0.5s;
-    color: white;
+    color: beige;
 }
 
 .social-icons {
@@ -79,7 +79,7 @@
     position: absolute;
     width: 280px;
     transition: .5s;
-    color: white;
+    color: beige;
 }
 
 .input-field {
@@ -92,7 +92,7 @@
     border-bottom: 1px solid #999;
     outline: none;
     background: transparent;
-    color: white;
+    color: beige;
 }
 
 .submit-btn {
@@ -127,6 +127,6 @@
 }
 
 ::placeholder {
-    color: white;
+    color: beige;
     opacity: 1;
 }

@@ -39,7 +39,7 @@ nav img {
 }
 
 .nav-links ul li a {
-    color: white;
+    color: beige;
     text-decoration: none;
     font-size: 13px;
 }
@@ -60,7 +60,7 @@ nav img {
 
 .text-box {
     width: 90%;
-    color: #fff;
+    color: beige;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -75,14 +75,14 @@ nav img {
 .text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
-    color: white;
+    color: beige;
 }
 
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid white;
+    color: beige;
+    border: 1px solid beige;
 
     padding: 12px 34px;
     font-size: 13px;
@@ -126,7 +126,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: beige3f3;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -178,7 +178,7 @@ h3{
 .layer h3{
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: beige;
     font-size: 26px;
     bottom: 0;
     left: 50%;
@@ -232,7 +232,7 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: beige3f3;
     padding: 20px;
     cursor: pointer;
     display: flex;
@@ -265,7 +265,7 @@ h3{
     padding: 100px 0;
 }
 .cta h1{
-    color: #fff;
+    color: beige;
     margin-bottom: 40px;
     padding: 0;
 }
@@ -309,7 +309,7 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: beige;
 }
 .sub-header-about h1{
     margin-top: 70px;
@@ -347,7 +347,7 @@ h3{
     transition: 0.3s;
 }
 .red-btn:hover{
-    color: #fff;
+    color: beige;
 }
 
 
@@ -359,7 +359,7 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: beige;
 }
 .sub-header-courses h1{
     margin-top: 70px;
@@ -394,7 +394,7 @@ h3{
 }
 .blog-right h3{
     background: #f44336;
-    color: #fff;
+    color: beige;
     padding: 7px 0;
     font-size: 16px;
     margin-bottom: 20px;
@@ -435,7 +435,7 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: beige;
 }
 .sub-header-blogs h1{
     margin-top: 70px;
@@ -458,7 +458,7 @@ h3{
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #fff;
+    color: beige;
 }
 .sub-header-contact h1{
     margin-top: 70px;
@@ -538,7 +538,7 @@ h3{
     }
     nav .fa{
         display: block;
-        color: white;
+        color: beige;
         margin: 10px;
         font-size: 30px;
         cursor: pointer;

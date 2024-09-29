@@ -51,7 +51,7 @@
 }
 
 #navbar ul li a {
-    color: white;
+    color: beige;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
@@ -59,7 +59,7 @@
 }
 
 #navbar ul li a:hover {
-    color: white;
+    color: beige;
     background-color: rgb(255, 255, 255, 0.2);
 }
 
@@ -87,13 +87,13 @@
 }
 
 #home h1 {
-    color: white;
+    color: beige;
     text-align: center;
     font-family: 'Bree Serif', serif;
 }
 
 #home p {
-    color: white;
+    color: beige;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Bree Serif', serif;
@@ -198,13 +198,13 @@
 
 footer{
     background: black;
-    color: white;
+    color: beige;
     padding: 9px 20px;
 }
 
 /* Utility Classes */
 .h-primary {
-    /* color: white; */
+    /* color: beige; */
     font-family: 'Bree Serif', serif;
     font-size: 2.5rem;
     padding: 12px;
@@ -220,7 +220,7 @@ footer{
     font: bold;
     font-size: 1.5rem;
     padding: 6px 20px;
-    border: 0.5px solid white;
+    border: 0.5px solid beige;
     background-color: rgb(255, 255, 255, 0.2);
     color: black;
     margin: 17px;
@@ -229,7 +229,7 @@ footer{
 }
 
 .btn:hover{
-    color: white;
+    color: beige;
     background-color: rgb(245, 92, 68);
     font-size: 1.56rem;
     padding: 6px 19.5px;

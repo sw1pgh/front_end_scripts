@@ -6,7 +6,7 @@
 }
 body{
     background: #000;
-    color: #fff;
+    color: beige;
 }
 .header{
     width: 100%;
@@ -30,7 +30,7 @@ nav button{
     border: 0;
     outline: 0;
     background: #db0001;
-    color: #fff;
+    color: beige;
     padding: 7px 20px;
     font-size: 15px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ nav button{
     display: inline flex;
     align-items: center;
     background: transparent;
-    border: 1px solid #fff;
+    border: 1px solid beige;
     padding: 6px 15px;
 }
 .signin-btn{
@@ -88,20 +88,20 @@ nav button{
 }
 .email-signup input{
     background: transparent;
-    border: 1px solid #ffffff5d;
+    border: 1px solid beigefff5d;
     border-radius: 3px;
     flex: 1;
     font-size: 15px;
     font-weight: 600;
     padding: 18px 15px;
     margin-right: 9px;
-    color: #fff;
+    color: beige;
 }
 .email-signup button{
     background: #d90f0f;
     border: none;
     outline: 0;
-    color: #fff;
+    color: beige;
     font-size: 20px;
     font-weight: 550;
     cursor: pointer;
